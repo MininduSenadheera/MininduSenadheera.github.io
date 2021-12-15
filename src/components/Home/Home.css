@@ -1,0 +1,20 @@
+.profile_img img {
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
+    border-radius: 50% !important;
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    transition: all .15s ease;
+    transform: translate(0%, 0%);
+    margin-bottom: 20px;
+}
+
+.profile_img img:hover {
+    transform: translate(0%, -3%);
+}
+
+.social-icons:hover {
+    transform: translate(0%, -3%);
+}
