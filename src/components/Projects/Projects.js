@@ -1,0 +1,86 @@
+import React from 'react'
+import Button from '@mui/material/Button';
+import { indigo } from '@mui/material/colors';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import './Projects.css'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
+function Projects() {
+    Aos.init({duration:1000, once:true})
+
+    return (
+        <div class="container work" style={{ height: '100vh'}}>
+            <h2 style={{ color: indigo[700], fontWeight: 700 }} data-aos="fade-up">CHECK OUT MY PROJECTS</h2>
+            <main class="page-content">
+                <div class="work-card" style={{backgroundImage: `url('/images/aspirusApp.jpg')`}} data-aos="fade-up">
+                    <div class="content">
+                        <h4>Aspirus Health Care Website</h4>
+                        <p class="copy">(MERN) <br/> Website for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
+                        <Button 
+                            variant="contained" 
+                            href="https://github.com/JMAT-Technologies/Aspirus-Health-Care-WebApp" 
+                            target="_blank" 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+                <div class="work-card" style={{backgroundImage: `url('/images/aspirusApp.jpg')`}} data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h4>Aspirus Health Care Android App</h4>
+                        <p class="copy">(Java) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
+                        <Button 
+                            variant="contained" 
+                            href="https://github.com/JMAT-Technologies/Aspirus-Health-Care-Android-App" 
+                            target="_blank" 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+                <div class="work-card" style={{backgroundImage: `url('/images/aspirusApp.jpg')`}} data-aos="fade-up" data-aos-delay="300">
+                    <div class="content">
+                        <h4>Orchid Bureau</h4>
+                        <p class="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
+                        <Button 
+                            variant="contained" 
+                            href="https://github.com/MininduSenadheera/Orchid-Bureau" 
+                            target="_blank"
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+                <div class="work-card" style={{backgroundImage: `url('/images/aspirusApp.jpg')`}} data-aos="fade-up">
+                    <div class="content">
+                        <h4>Bus Ticket Reservation System</h4>
+                        <p class="copy">(JSP) <br/> A bus ticket reservation application where users can reserve seats online.</p>
+                        <Button 
+                            variant="contained"
+                            href="https://github.com/MininduSenadheera/Bus-Ticket-Reservation" 
+                            target="_blank" 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+                <div class="work-card" style={{backgroundImage: `url('/images/aspirusApp.jpg')`}} data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h4>Library Management System</h4>
+                        <p class="copy">(PHP) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
+                        <Button 
+                            variant="contained" 
+                            href="https://github.com/MininduSenadheera/Library-Management-System" 
+                            target="_blank" 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    )
+}
+
+export default Projects
