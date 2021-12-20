@@ -11,10 +11,6 @@
     margin-bottom: 20px;
 }
 
-.profile_img img:hover {
-    transform: translate(0%, -3%);
-}
-
 .social-icons:hover {
     transform: translate(0%, -3%);
 }
