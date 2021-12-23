@@ -1,16 +1,19 @@
-.profile_img img {
-    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
-    border-radius: 50% !important;
+.social-icons:hover {
+    transform: translate(0%, -3%);
+}
+
+img.circle-shadow {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    box-shadow: 0px 0px 20px 10px #2296cf;
     vertical-align: middle;
     border-style: none;
     position: relative;
-    width: 400px;
-    height: 400px;
-    transition: all .15s ease;
-    transform: translate(0%, 0%);
-    margin-bottom: 20px;
+    transition: transform .5s ease;
 }
 
-.social-icons:hover {
-    transform: translate(0%, -3%);
+img.circle-shadow:hover{
+    box-shadow: 0px 0px 20px 10px #2296cf;
+    transform: scale(1.1);
 }
