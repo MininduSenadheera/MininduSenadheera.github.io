@@ -9,16 +9,16 @@ function Home() {
     Aos.init({duration:1000})
 
     return (
-        <div className="container mt-5 mb-5" style={{height: '90vh'}}>
+        <div id="home" className="container" style={{height: '100vh'}}>
             <div className="row">
                 <div className="col-xl-5">
-                    <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-                    <div className="profile_img" data-aos="zoom-out">
-                        <img src="/images/ProfilePic.jpg" className="rounded-circle" alt="profile pic"/>
+                    <br/><br/><br/><br/><br/><br/>
+                    <div data-aos="zoom-out">
+                        <img src="/images/ProfilePic.jpg" className="circle-shadow" alt="profile pic"/>
                     </div>
                 </div>
                 <div className="col-xl-7 mt-5">
-                    <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+                    <br/><br/><br/><br/><br/><br/><br/>
                     <p data-aos="fade-up">Hi there, I'm </p>
                     <h1 data-aos="fade-up" style={{ color: indigo[700] }}>Minindu Senadheera</h1>
                     <div data-aos="fade-right" data-aos-delay="200">
@@ -34,6 +34,9 @@ function Home() {
                     
                     <br/>
                     <div data-aos="fade-right" data-aos-delay="200">
+                        <a href="mailto:minindusenadheera@gmail.com">
+                            <img className="social-icons" src="https://img.icons8.com/fluency/48/000000/apple-mail.png" alt="linkedin"/>
+                        </a>
                         <a href="https://www.linkedin.com/in/minindusenadheera" target="_blank" rel="noreferrer">
                             <img className="social-icons" src="https://img.icons8.com/fluency/50/000000/linkedin.png" alt="linkedin"/>
                         </a>
@@ -48,10 +51,6 @@ function Home() {
                         &nbsp;
                         <a href="https://www.facebook.com/minindu.senadheera/" target="_blank" rel="noreferrer">
                             <img className="social-icons" src="https://img.icons8.com/fluency/50/000000/facebook-new.png" alt="facebook"/>
-                        </a>
-                        &nbsp;
-                        <a href="https://www.youtube.com/c/MininduSenadheera" target="_blank" rel="noreferrer">
-                            <img className="social-icons" src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="youtube"/>
                         </a>
                         <br/><br/>
                         <button className="btn btn-md btn-primary">Download My CV</button>
