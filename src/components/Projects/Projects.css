@@ -18,12 +18,17 @@
   padding: 1rem;
   margin: 0 auto;
 }
-@media (min-width: 600px) {
+@media (min-width: 450px) {
+  .page-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 850px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1250px) {
   .page-content {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -36,6 +41,7 @@
   overflow: hidden;
   padding: 1rem;
   width: 410px;
+  height: 292px;
   text-align: center;
 }
 
