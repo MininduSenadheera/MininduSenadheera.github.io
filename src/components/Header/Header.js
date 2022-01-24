@@ -24,7 +24,7 @@ function Header() {
                         <div class="hex-content">
                             <div class="hex-content-inner">
                                 <div class="title">
-                                    <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
                                         About
                                     </Link>
                                 </div>
