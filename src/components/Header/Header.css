@@ -7,6 +7,10 @@ header{
   backdrop-filter: blur(20px);
 }
 
+.hexagon-item {
+  cursor: pointer;
+}
+
 .hex-content {
   color: inherit;
   display: block;
