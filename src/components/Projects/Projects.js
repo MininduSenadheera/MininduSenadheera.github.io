@@ -24,15 +24,19 @@ function Projects() {
     function busTicket(){
         window.open("https://github.com/MininduSenadheera/Bus-Ticket-Reservation");
     }
-
+    
     function lms(){
         window.open("https://github.com/MininduSenadheera/Library-Management-System");
     }
 
+    function rentACar(){
+        window.open("https://github.com/JMAT-Technologies/Rent-A-Car-SQLite");
+    }
+
     return (
-        <div id="projects" class="container work mb-5">
-            <h2 style={{ color: indigo[500], fontWeight: 700}} data-aos="fade-up">CHECK OUT MY PROJECTS</h2>
-            <main class="page-content">
+        <div id="projects" class="container work mb-5" >
+            <h2 style={{ color: indigo[500], fontWeight: 700}} data-aos="fade-up">Check Out My Projects</h2>
+            <main class="page-content mt-5">
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up">
                     <div class="content">
                         <h4>Aspirus Health Care Website</h4>
@@ -88,6 +92,18 @@ function Projects() {
                         <Button 
                             variant="contained" 
                             onClick={lms} 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </div>
+                </div>
+                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="300">
+                    <div class="content">
+                        <h4>Rent A Car Website</h4>
+                        <p class="copy">(EJS) <br/> Rent A car website where users can post advertisements to rent their vehicles and customers can get delivered their rented car to where they want.</p>
+                        <Button 
+                            variant="contained" 
+                            onClick={rentACar} 
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
