@@ -4,6 +4,7 @@ import Typing from 'react-typing-animation';
 import { indigo } from '@mui/material/colors';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 function Home() {
     Aos.init({duration:1000})
@@ -53,7 +54,9 @@ function Home() {
                             <img className="social-icons" src="https://img.icons8.com/fluency/50/000000/facebook-new.png" alt="facebook"/>
                         </a>
                         <br/><br/>
-                        <button className="btn btn-md btn-primary">Download My CV</button>
+                        <Link to="/pdf/Resume - Minindu Senadheera.pdf" target="_blank" download>
+                            <button className="btn btn-md btn-primary">Download My CV</button>
+                        </Link>
                     </div>
                 </div>
             </div> 
