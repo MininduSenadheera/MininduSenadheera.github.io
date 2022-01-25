@@ -13,11 +13,10 @@ function About() {
             <main className="mt-5">
                 <div className="boxAbout">
                     <div className='row'>
-                        <div className='col-6'>
-                            <img src="/images/hologram.gif" alt='hologram' data-aos="zoom-out"></img>
+                        <div className='col-xl-6'>
+                            <img src="/images/hologram.gif" className='img-fluid' alt='hologram' data-aos="zoom-out"></img>
                         </div>
-                        <div className='col-6'>
-                            <br></br>
+                        <div className='col-xl-6 d-flex flex-column justify-content-center'>
                             <h4 data-aos="fade-up">I am Minindu Senadheera, </h4>
                             <br></br>
                             <p data-aos="fade-up" data-aos-delay="100">
@@ -29,8 +28,7 @@ function About() {
                         </div>
                     </div>
                 </div>    
-            </main>
-            <br></br><br></br>            
+            </main>          
         </div>
     )
 }
