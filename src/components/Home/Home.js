@@ -10,7 +10,7 @@ function Home() {
     Aos.init({duration:1000})
 
     return (
-        <div id="home" className="hero d-flex align-items-center" style={{height: '100vh'}}>
+        <div id="home" className="home d-flex align-items-center">
             <div className='container'>
                 <div className="row">
                     <div className="col-xl-5">
