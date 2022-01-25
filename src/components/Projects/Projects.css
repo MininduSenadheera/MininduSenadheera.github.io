@@ -2,10 +2,6 @@
     --d: 700ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
 }
-  
-* {
-  box-sizing: border-box;
-}
 
 .work {
   display: grid;
@@ -67,6 +63,10 @@
   height: 200%;
   pointer-events: none;
   transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
 
@@ -102,6 +102,10 @@
   .content > *:not(.title) {
     opacity: 0;
     transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
 
@@ -112,20 +116,36 @@
   .work-card:hover:before,
 .work-card:focus-within:before {
     transform: translateY(-4%);
+    -webkit-transform: translateY(-4%);
+    -moz-transform: translateY(-4%);
+    -ms-transform: translateY(-4%);
+    -o-transform: translateY(-4%);
     backdrop-filter: blur(30px);
   }
   .work-card:hover:after,
 .work-card:focus-within:after {
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
   }
   .work-card:hover .content,
 .work-card:focus-within .content {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
   }
   .work-card:hover .content > *:not(.title),
 .work-card:focus-within .content > *:not(.title) {
     opacity: 1;
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     transition-delay: calc(var(--d) / 8);
   }
 
