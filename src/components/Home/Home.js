@@ -15,7 +15,7 @@ function Home() {
                 <div className="row">
                     <div className="col-xl-5">
                         <div data-aos="zoom-out">
-                            <img src="/images/ProfilePic.jpg" className="circle-shadow" alt="profile pic"/>
+                            <img src="/images/ProfilePic.jpg" className="circle-shadow img-fluid" alt="profile pic"/>
                         </div>
                     </div>
                     <div className="col-xl-7 mt-5 d-flex flex-column justify-content-center">
