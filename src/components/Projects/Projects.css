@@ -91,7 +91,7 @@
   line-height: 1.35;
 }
 
-@media (hover: hover) and (min-width: 600px) {
+@media (hover: hover) {
   .work-card:after {
     transform: translateY(0);
   }
