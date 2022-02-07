@@ -52,7 +52,7 @@ function Projects() {
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h4>Aspirus Health Care Android App</h4>
-                        <p class="copy">(Java) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
+                        <p class="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
                         <Button 
                             variant="contained" 
                             onClick={aspirusApp}
@@ -76,7 +76,7 @@ function Projects() {
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}}data-aos="fade-up">
                     <div class="content">
                         <h4>Bus Ticket Reservation System</h4>
-                        <p class="copy">(JSP) <br/> A bus ticket reservation application where users can reserve seats online.</p>
+                        <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online.</p>
                         <Button 
                             variant="contained"
                             onClick={busTicket}
@@ -88,7 +88,7 @@ function Projects() {
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h4>Library Management System</h4>
-                        <p class="copy">(PHP) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
+                        <p class="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
                         <Button 
                             variant="contained" 
                             onClick={lms} 
@@ -100,7 +100,7 @@ function Projects() {
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="300">
                     <div class="content">
                         <h4>Rent A Car Website</h4>
-                        <p class="copy">(EJS) <br/> Rent A car website where users can post advertisements to rent their vehicles and customers can get delivered their rented car to where they want.</p>
+                        <p class="copy">(EJS, SQLite) <br/> Rent A car website where users can post advertisements to rent their vehicles and customers can get delivered their rented car to where they want.</p>
                         <Button 
                             variant="contained" 
                             onClick={rentACar} 
