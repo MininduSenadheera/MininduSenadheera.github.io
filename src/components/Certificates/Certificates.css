@@ -7,3 +7,8 @@
 .img-hover-zoom:hover img {
   transform: scale(1.2);
 }
+
+.certificate {
+  width: 400px;
+  min-height: 300px;
+}
