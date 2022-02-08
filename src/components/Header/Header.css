@@ -20,6 +20,32 @@
   -webkit-animation: focus-in-contract 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: focus-in-contract 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+.toggle {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px){
+  header {
+    margin-bottom: 150px;
+  }
+  .navbar .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .navbar .container div {
+    text-align: center;
+    padding: 20px;
+  }
+  .toggle {
+    display: block;
+  }
+}
+
 /***************************/
 
 @-webkit-keyframes focus-in-contract {
