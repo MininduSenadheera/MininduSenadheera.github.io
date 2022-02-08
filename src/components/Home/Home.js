@@ -14,7 +14,7 @@ function Home() {
             <div className='container'>
                 <div className="row">
                     <div className="col-xl-5">
-                        <div data-aos="zoom-out">
+                        <div data-aos="zoom-out" align="center">
                             <img src="/images/ProfilePic.jpg" className="circle-shadow img-fluid" alt="profile pic"/>
                         </div>
                     </div>
