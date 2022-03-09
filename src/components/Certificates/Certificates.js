@@ -9,8 +9,11 @@ function Certificates() {
 
     return (
         <div id="certificates" class="container work">
-            <h2 style={{ color: indigo[500], fontWeight: 700 }} data-aos="fade-up">My Achievements</h2>
+            <h2 style={{ color: indigo[500], fontWeight: 700 }} data-aos="fade-up">Online Achievements</h2>
             <main class="page-content mt-5">
+                <div class="img-hover-zoom"  data-aos="fade-up">
+                    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/46213604" className='img-fluid certificate' alt="Hacktitude 99x 2022 "/>
+                </div>
                 <div class="img-hover-zoom"  data-aos="fade-up">
                     <img src="/certificates/Udemy Automate boring stuff with python.jpg" className='img-fluid certificate' alt="Udemy Automate Python "/>
                 </div>
