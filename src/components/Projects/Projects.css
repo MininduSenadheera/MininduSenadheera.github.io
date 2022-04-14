@@ -3,7 +3,7 @@
   --e: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.page-content {
+.page-content-projects {
   display: grid;
   grid-gap: 3rem;
   margin: 0 auto;

@@ -7,3 +7,10 @@
 .img-hover-zoom:hover img {
   transform: scale(1.1);
 }
+
+.page-content-certificates {
+  display: grid;
+  grid-gap: 3rem;
+  margin: 0 auto;
+  padding: 1rem;
+}

@@ -10,7 +10,7 @@ function Certificates() {
     return (
         <div id="certificates" class="container grid">
             <h2 style={{ color: indigo[500], fontWeight: 700 }} data-aos="fade-up">Online Achievements</h2>
-            <main class="page-content mt-5">
+            <main class="page-content-certificates mt-5">
                 <div class="img-hover-zoom"  data-aos="fade-up">
                     <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/46213604" className='img-fluid' alt="Hacktitude 99x 2022 "/>
                 </div>
