@@ -6,7 +6,6 @@
 .page-content {
   display: grid;
   grid-gap: 3rem;
-  padding: 1rem;
   margin: 0 auto;
 }
 
