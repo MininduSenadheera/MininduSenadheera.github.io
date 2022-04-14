@@ -20,3 +20,8 @@ Link{
 Link:hover { 
   text-decoration:none; 
 }
+
+.grid {
+  display: grid;
+  place-items: center;
+}

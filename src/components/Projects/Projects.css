@@ -3,11 +3,6 @@
   --e: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.work {
-  display: grid;
-  place-items: center;
-}
-
 .page-content {
   display: grid;
   grid-gap: 3rem;
@@ -15,17 +10,22 @@
   margin: 0 auto;
 }
 
-@media (min-width: 450px) {
+@media only screen and (max-width: 600px) {
   .page-content {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (min-width: 850px) {
+@media only screen and (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768px){
   .page-content {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 1250px) {
+@media only screen and (min-width: 992px) {
   .page-content {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -34,11 +34,9 @@
 .work-card {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   overflow: hidden;
-  padding: 1rem;
-  width: auto;
-  height: 292px;
+  min-height: 292px;
   text-align: center;
 }
 
