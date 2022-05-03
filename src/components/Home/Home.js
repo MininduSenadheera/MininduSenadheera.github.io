@@ -10,19 +10,28 @@ function Home() {
     Aos.init({duration:1000})
 
     return (
-        <div id="home" className="home d-flex align-items-center">
+        <section id="home" className="section home d-flex align-items-center">
             <div className='container'>
+                {/* <div className='row my-5 bg-danger'>
+                    <div className='col-12 text-light text-center'>
+                        <h1>This site is still under construction</h1>
+                    </div>
+                </div> */}
                 <div className="row">
                     <div className="col-xl-5">
                         <div data-aos="zoom-out" align="center">
                             <img src="/images/ProfilePic.jpg" className="circle-shadow img-fluid" alt="profile pic"/>
                         </div>
                     </div>
-                    <div className="col-xl-7 mt-5 d-flex flex-column justify-content-center">
+                    <div className="col-xl-7 d-flex flex-column justify-content-center">
                         <p data-aos="fade-up">Hi there, I'm </p>
-                        <h1 data-aos="fade-up" style={{ color: indigo[700] }}>Minindu Senadheera</h1>
-                        <div data-aos="fade-right" data-aos-delay="200">
-                        <Typing>
+
+                        <div class="text-tran-box">
+                            <h1 class="text-transparent my-0">Minindu Senadheera</h1>
+                        </div>
+                        
+                        <div className='mt-2' data-aos="fade-right" data-aos-delay="200">
+                            <Typing>
                                 <p>
                                     Data Science Undergraduate | &nbsp; 
                                     <Typing.Delay ms={500} />
@@ -60,7 +69,7 @@ function Home() {
                     </div>
                 </div>
             </div> 
-        </div>
+        </section>
     )
 }
 
