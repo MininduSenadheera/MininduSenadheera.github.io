@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css';
 import Typing from 'react-typing-animation';
-import { indigo } from '@mui/material/colors';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
@@ -20,7 +19,7 @@ function Home() {
                 <div className="row">
                     <div className="col-xl-5">
                         <div data-aos="zoom-out" align="center">
-                            <img src="/images/ProfilePic.jpg" className="circle-shadow img-fluid" alt="profile pic"/>
+                            <img src="/images/ProfilePic.jpg" className="circle-shadow profile img-fluid" alt="profile pic"/>
                         </div>
                     </div>
                     <div className="col-xl-7 d-flex flex-column justify-content-center">
