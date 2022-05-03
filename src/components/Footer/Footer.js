@@ -5,7 +5,9 @@ function Footer() {
     return (
       <footer className='mt-5'>
         <div class="copyright-text">
-          <p>© 2021. All rights reserved. Created by
+          <p>© 2021. All rights reserved.
+            <br></br>
+            Created by
             <a href="http://www.github.com/MininduSenadheera" target="_blank" rel="noreferrer"> Minindu Senadheera</a>
           </p>
         </div>
