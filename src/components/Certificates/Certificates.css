@@ -14,3 +14,24 @@
   margin: 0 auto;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .page-content-certificates {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .page-content-certificates {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768px){
+  .page-content-certificates {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .page-content-certificates {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -10,22 +10,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .page-content {
+  .page-content-projects {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 600px) {
-  .page-content {
+  .page-content-projects {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 768px){
-  .page-content {
+  .page-content-projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (min-width: 992px) {
-  .page-content {
+  .page-content-projects {
     grid-template-columns: repeat(3, 1fr);
   }
 }
