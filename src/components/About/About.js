@@ -8,10 +8,10 @@ function About() {
     Aos.init({duration:1000, once:true})
 
     return (
-        <div id='about' className="container mb-5" align="center">
-            <h2 style={{ color: indigo[500], fontWeight: 700}} data-aos="fade-up">About Me</h2>
-            <main className="mt-5">
-                <div className="boxAbout">
+        <section id='about' className="section mb-5">
+            <div className='container' align="center">
+                <h2 style={{ color: indigo[500], fontWeight: 700}} data-aos="fade-up">About Me</h2>
+                <div className="boxAbout mt-5">
                     <div className='row'>
                         <div className='col-xl-6'>
                             <img src="/images/hologram.gif" className='img-fluid' alt='hologram' data-aos="zoom-out"></img>
@@ -27,9 +27,9 @@ function About() {
                             </p>
                         </div>
                     </div>
-                </div>    
-            </main>          
-        </div>
+                </div>            
+            </div>
+        </section>
     )
 }
 
