@@ -8,7 +8,6 @@ function Header() {
     return (
         <nav class="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
             <div class="container">
-                {/* Logo */}
                 <a class="navbar-brand logo" href="home">
                     {/* <h4>Minindu</h4> */}
                 </a>
