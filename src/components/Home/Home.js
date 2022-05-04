@@ -25,9 +25,7 @@ function Home() {
                     <div className="col-xl-7 d-flex flex-column justify-content-center">
                         <p data-aos="fade-up">Hi there, I'm </p>
 
-                        <div class="text-tran-box">
-                            <h1 class="text-transparent my-0">Minindu Senadheera</h1>
-                        </div>
+                        <h1 class="userName my-0">Minindu Senadheera</h1>
                         
                         <div className='mt-2' data-aos="fade-right" data-aos-delay="200">
                             <Typing>
