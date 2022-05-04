@@ -7,6 +7,7 @@
     padding: 25px;
     border-radius: 15px; /*Rounds the corners a little.*/
     position: relative; /*Position of relative because we will use position of absolute on the pseudo-element. This will make it so that the pseudo-element will not float away from the card.*/
+    box-shadow:0px 24px 48px 0 rgba(0,0,0,0.1);
 }
 /*Creating the gradient border with a pseudo-element. */
 .card::before{
