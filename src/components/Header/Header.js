@@ -25,6 +25,11 @@ function Header() {
                             </Link>
                         </li>
                         <li class="nav-item">
+                            <Link to="services" spy={true} smooth={true} offset={-100} duration={500}>
+                                My Services
+                            </Link>
+                        </li>
+                        <li class="nav-item">
                             <Link to="projects" spy={true} smooth={true} offset={-90} duration={500}>
                                 Projects
                             </Link>
