@@ -7,7 +7,7 @@ function Header() {
     return (
         <nav class="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
             <div class="container-fluid">
-                <Link class="navbar-brand logo" to="home">
+                <Link class="navbar-brand" to="home">
                     <img src='/images/Mlogo.png' className='logo' alt='logo'/>
                 </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
