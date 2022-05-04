@@ -25,7 +25,7 @@
 img.circle-shadow {
     width: 350px;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 10px #5880d6;
+    box-shadow: 0px 0px 20px 10px #B7589C;
     vertical-align: middle;
     border-style: none;
     position: relative;
@@ -33,7 +33,7 @@ img.circle-shadow {
 }
 
 img.circle-shadow:hover{
-    box-shadow: 0px 0px 20px 10px #6E58D6;
+    box-shadow: 0px 0px 20px 10px #6658dd;
     transform: scale(1.1);
 }
 
