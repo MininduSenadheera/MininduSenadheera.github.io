@@ -1,0 +1,73 @@
+/* progress bars */
+.HTML {
+    width: 100%;
+    background-color: #F06529; 
+}
+
+.CSS {
+    width: 95%;
+    background-color: #3C99DC;
+}
+
+.JavaScript {
+    width: 85%;
+    background-color: #F0DB4F;
+}
+
+.Java {
+    width: 80%;
+    background-color: #ED1D25;
+}
+
+.React {
+    width: 95%;
+    background-color: #61DBFB;
+}
+
+.SQL {
+    width: 75%;
+    background-color: #F29111;
+}
+
+.R {
+    width: 50%;
+    background-color: #1F65CC;
+}
+
+.progress {
+    border-radius: 50px;
+}
+
+.progress-bar {
+    border-radius: 50px;
+}
+
+
+/* skills card */
+.skillGrid {
+    display: grid;
+    grid-gap: 3rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .skillGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .skillGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .skillGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .skillGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
