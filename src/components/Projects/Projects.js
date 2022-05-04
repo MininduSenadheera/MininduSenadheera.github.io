@@ -34,9 +34,9 @@ function Projects() {
     }
 
     return (
-        <div id="projects" class="container mt-5 grid mb-5" >
-            <h2 style={{ color: indigo[500], fontWeight: 700}} data-aos="fade-up">Check Out My Projects</h2>
-            <main class="page-content-projects mt-5">
+        <div id="projects" class="container my-5 grid" >
+            <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
+            <main class="page-content-projects my-5">
                 <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up">
                     <div class="content">
                         <h4>Aspirus Health Care Website</h4>
