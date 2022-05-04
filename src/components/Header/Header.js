@@ -2,12 +2,11 @@ import React from 'react';
 import './Header.css';
 import { Link } from "react-scroll";
 
-
 function Header() {
     
     return (
         <nav class="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <Link class="navbar-brand logo" to="home">
                     <img src='/images/Mlogo.png' className='logo' alt='logo'/>
                 </Link>
@@ -34,6 +33,10 @@ function Header() {
                             <Link to="certificates" spy={true} smooth={true} offset={-100} duration={500}>
                                 Certifications
                             </Link>
+                        </li>
+                        <li>
+                            <input type="checkbox" id='mode'></input>
+                            <label htmlFor='mode' className='nightMode'/>
                         </li>
                     </ul>
                 </div>
