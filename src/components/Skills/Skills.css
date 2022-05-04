@@ -42,6 +42,11 @@
     border-radius: 50px;
 }
 
+.Python {
+    width: 60%;
+    background-color: #3C99DC;
+}
+
 
 /* skills card */
 .skillGrid {

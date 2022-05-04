@@ -44,6 +44,11 @@ function Skills() {
                             <div class="progress mb-3">
                                 <div class="progress-bar R" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
+                            <h5>Python</h5>
+                            <div class="progress mb-3">
+                                <div class="progress-bar Python" role="progressbar"  aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                     <div className='col-xl-6  mb-5'>
