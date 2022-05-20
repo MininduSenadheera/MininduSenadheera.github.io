@@ -1,11 +1,10 @@
 import React from 'react'
-import { indigo } from '@mui/material/colors';
 import './Certificates.css'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 function Certificates() {
-    Aos.init({duration:1000, once:true})
+    Aos.init({duration:1000, once:false})
 
     return (
         <div id="certificates" class="container grid">
@@ -14,13 +13,13 @@ function Certificates() {
                 <div class="img-hover-zoom"  data-aos="fade-up">
                     <img src="/certificates/Azure Fundamentals.png" className='img-fluid' alt="Azure fundementals badge "/>
                 </div>
-                <div class="img-hover-zoom"  data-aos="fade-up">
+                <div class="img-hover-zoom"  data-aos="fade-up" data-aos-delay="200">
                     <img src="/certificates/Python_for_Beginners_E-Certificate.jpg" className='img-fluid' alt="UOM Python"/>
                 </div>
-                <div class="img-hover-zoom"  data-aos="fade-up">
+                <div class="img-hover-zoom"  data-aos="fade-up" data-aos-delay="300">
                     <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/46213604" className='img-fluid' alt="Hacktitude 99x 2022 "/>
                 </div>
-                <div class="img-hover-zoom"  data-aos="fade-up">
+                <div class="img-hover-zoom"  data-aos="fade-up"  >
                     <img src="/certificates/Udemy Automate boring stuff with python.jpg" className='img-fluid' alt="Udemy Automate Python "/>
                 </div>
                 <div class="img-hover-zoom"  data-aos="fade-up" data-aos-delay="200">
@@ -29,7 +28,7 @@ function Certificates() {
                 <div class="img-hover-zoom"  data-aos="fade-up" data-aos-delay="300">
                     <img src="/certificates/One Month Learn JavaScript Certificate.jpg" className='img-fluid' alt="One month js "/>
                 </div>
-                <div class="img-hover-zoom"  data-aos="fade-up">
+                <div class="img-hover-zoom"  data-aos="fade-up" >
                     <img src="/certificates/One Month Learn jQuery Certificate.jpg" className='img-fluid' alt="One month jquery"/>
                 </div>
                 <div class="img-hover-zoom" data-aos="fade-up" data-aos-delay="200">

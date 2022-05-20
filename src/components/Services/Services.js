@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import './Services.css'
 
 function Services() {
-    Aos.init({duration:1000, once:true})
+    Aos.init({duration:1000, once:false})
 
     return (
         <section id='services' className="section mb-5">

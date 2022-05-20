@@ -6,7 +6,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 
 function Projects() {
-    Aos.init({duration:1000, once:true})
+    Aos.init({duration:1000, once:false})
 
     function aspirusWeb(){
         window.open("https://github.com/JMAT-Technologies/Aspirus-Health-Care-WebApp");
