@@ -12,6 +12,9 @@ function Certificates() {
             <h1 className="title" data-aos="fade-up">Online Achievements</h1>
             <main class="page-content-certificates mt-5">
                 <div class="img-hover-zoom"  data-aos="fade-up">
+                    <img src="/certificates/Azure Fundamentals.png" className='img-fluid' alt="Azure fundementals badge "/>
+                </div>
+                <div class="img-hover-zoom"  data-aos="fade-up">
                     <img src="/certificates/Python_for_Beginners_E-Certificate.jpg" className='img-fluid' alt="UOM Python"/>
                 </div>
                 <div class="img-hover-zoom"  data-aos="fade-up">
