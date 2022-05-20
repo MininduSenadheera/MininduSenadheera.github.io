@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '@mui/material/Button';
-import { indigo } from '@mui/material/colors';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './Projects.css'
 import Aos from 'aos';
