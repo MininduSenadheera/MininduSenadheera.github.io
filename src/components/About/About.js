@@ -13,7 +13,7 @@ function About() {
                 <div className="boxAbout my-5">
                     <div className='row'>
                         <div className='col-xl-6'>
-                            <img src="/images/hologram.gif" className='img-fluid' alt='hologram' data-aos="zoom-out"></img>
+                            <img src="/images/hologram.gif" className='img-fluid mb-3' alt='hologram' data-aos="zoom-out"></img>
                         </div>
                         <div className='col-xl-6 d-flex flex-column justify-content-center'>
                             <h4 data-aos="fade-up">I am Minindu Senadheera, </h4>
