@@ -20,6 +20,9 @@ function Services() {
                     <div class="card" data-aos="fade-up" data-aos-delay="300">
                         <h3 class="card-title" >University Assignments</h3>
                     </div>
+                    <div class="card" data-aos="fade-up">
+                        <h3 class="card-title" >Event / Travel Photography</h3>
+                    </div>
                 </main>        
             </div>
         </section>  
