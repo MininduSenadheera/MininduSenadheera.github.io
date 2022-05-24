@@ -1,6 +1,7 @@
 import React from 'react'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import ProgressBar from "@ramonak/react-progress-bar";
 import './Skills.css'
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -15,44 +16,132 @@ function Skills() {
                             <h3 className='subtitle mb-4'>Languages</h3>
 
                             <h5>HTML</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar HTML" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 100 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>CSS</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar CSS" role="progressbar"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 95 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>JavaScript</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar JavaScript" role="progressbar"  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 85 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
                             
                             <h5>Java</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar Java" role="progressbar"  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 80 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>React</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar React" role="progressbar"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 95 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>SQL</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar SQL" role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 75 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>R</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar R" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 50 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
 
                             <h5>Python</h5>
-                            <div class="progress mb-3">
-                                <div class="progress-bar Python" role="progressbar"  aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 65 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
                         </div>
                     </div>
                     <div className='col-xl-7  mb-5'>
