@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import { indigo } from '@mui/material/colors';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
