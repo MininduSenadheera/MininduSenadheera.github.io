@@ -2,9 +2,17 @@
   transition: transform .5s ease;
   box-shadow:0px 24px 48px 0 rgba(0,0,0,0.1);
 }
+.badge-hover-zoom img {
+  transition: transform .5s ease;
+  max-height: 300px;
+}
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.badge-hover-zoom:hover img {
   transform: scale(1.1);
 }
 
