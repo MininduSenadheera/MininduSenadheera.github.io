@@ -96,18 +96,6 @@ function Projects() {
                         </Button>
                     </div>
                 </div>
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="300">
-                    <div class="content">
-                        <h4>Rent A Car Website</h4>
-                        <p class="copy">(EJS, SQLite) <br/> Rent A car website where users can post advertisements to rent their vehicles and customers can get delivered their rented car to where they want.</p>
-                        <Button 
-                            variant="contained" 
-                            onClick={rentACar} 
-                            endIcon={<GitHubIcon />}>
-                            View Project
-                        </Button>
-                    </div>
-                </div>
             </main>
         </div>
     )
