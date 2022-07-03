@@ -36,9 +36,10 @@ function Projects() {
         <div id="projects" class="container my-5 grid" >
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main class="page-content-projects my-5">
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up">
-                    <div class="content">
-                        <h4>Aspirus Health Care Website</h4>
+                <div class="projectBox" data-aos="fade-up">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='lms'/>
+                    <center>
+                        <h4>Aspirus Health Care Web Application</h4>
                         <p class="copy">(MERN) <br/> Website for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
                         <Button 
                             variant="contained" 
@@ -46,10 +47,11 @@ function Projects() {
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
-                    </div>
+                    </center>
                 </div>
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="200">
-                    <div class="content">
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='lms'/>
+                    <center>
                         <h4>Aspirus Health Care Android App</h4>
                         <p class="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
                         <Button 
@@ -58,10 +60,11 @@ function Projects() {
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
-                    </div>
+                    </center>
                 </div>
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="300">
-                    <div class="content">
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='lms'/>
+                    <center>
                         <h4>Orchid Bureau</h4>
                         <p class="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
                         <Button 
@@ -70,23 +73,25 @@ function Projects() {
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
-                    </div>
+                    </center>
                 </div>
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}}data-aos="fade-up">
-                    <div class="content">
+                <div class="projectBox" data-aos="fade-up">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='lms'/>
+                    <center>
                         <h4>Bus Ticket Reservation System</h4>
-                        <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online.</p>
+                        <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online and manage their reservations.</p>
                         <Button 
                             variant="contained"
                             onClick={busTicket}
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
-                    </div>
+                    </center>
                 </div>
-                <div class="work-card" style={{backgroundImage: `url('/images/AspirusHealthCare.png')`, backgroundSize: 'cover'}} data-aos="fade-up" data-aos-delay="200">
-                    <div class="content">
-                        <h4>Library Management System</h4>
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='lms'/>
+                    <center>
+                    <h4>Library Management System</h4>
                         <p class="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
                         <Button 
                             variant="contained" 
@@ -94,7 +99,7 @@ function Projects() {
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
-                    </div>
+                    </center>
                 </div>
             </main>
         </div>
