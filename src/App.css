@@ -1,6 +1,12 @@
 body{
   background-color: #F6F7FB;
   color: #474D58;
+  transition: background-color 1s ease;
+}
+
+body.dark-mode{
+  background-color: rgb(0, 12, 36);
+  color: #e5e5e5;
 }
 
 ::-webkit-scrollbar{
