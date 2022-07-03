@@ -12,6 +12,10 @@
   z-index: 9999;
 }
 
+body.dark-mode .navbar-custom {
+  background-color: rgb(0, 12, 36, 0.7);
+}
+
 .navbar-custom .navbar-brand {
   height: auto;
 }

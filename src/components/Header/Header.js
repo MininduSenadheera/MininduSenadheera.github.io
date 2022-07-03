@@ -1,8 +1,10 @@
 import React from 'react';
 import './Header.css';
 import { Link } from "react-scroll";
+import useDarkMode from 'use-dark-mode';
 
 function Header() {
+    const darkMode = useDarkMode(false);
     
     return (
         <nav class="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
@@ -40,7 +42,7 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <input type="checkbox" id='mode'></input>
+                            <input type="checkbox" id='mode' checked={darkMode.value} onClick={darkMode.toggle}></input>
                             <label htmlFor='mode' className='nightMode'/>
                         </li>
                     </ul>
