@@ -13,10 +13,10 @@ function About() {
                 <div className="boxAbout my-5">
                     <div className='row'>
                         <div className='col-xl-6'>
-                            <img src="/images/hologram.gif" className='img-fluid mb-3' alt='hologram' data-aos="zoom-out"></img>
+                            <img src="/images/MininduSenadheera.jpg" className='img-fluid mb-3' alt='hologram' data-aos="zoom-out"></img>
                         </div>
                         <div className='col-xl-6 d-flex flex-column justify-content-center'>
-                            <h4 data-aos="fade-up">I am Minindu Senadheera, </h4>
+                            <h3 data-aos="fade-up">I am Minindu Senadheera, </h3>
                             <br></br>
                             <p data-aos="fade-up" data-aos-delay="100">
                                 I'm an undergraduate at Sri Lanka Institute of Information Technology reading a BSc(Hons) Information Technology Specialised in Data Science degree. I did my G.C.E Advance Levels in Physical Science stream in S.Thomas' College Mount Lavinia.
