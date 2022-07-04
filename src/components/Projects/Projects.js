@@ -33,6 +33,32 @@ function Projects() {
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main class="page-content-projects my-5">
                 <div class="projectBox" data-aos="fade-up">
+                    <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI Airbnb'/>
+                    <center>
+                    <h4>DWBI for Airbnb Boston</h4>
+                        <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for Airbnb hotel listings in Boston.</p>
+                        <Button 
+                            variant="contained" 
+                            onClick={lms} 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </center>
+                </div>
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='DWBI grocery'/>
+                    <center>
+                    <h4>DWBI for Grocery shop</h4>
+                        <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for a grocery shop.</p>
+                        <Button 
+                            variant="contained" 
+                            onClick={lms} 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </center>
+                </div>
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus webapp'/>
                     <center>
                         <h4>Aspirus Health Care Web Application</h4>
@@ -45,8 +71,8 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus android app'/>
+                <div class="projectBox" data-aos="fade-up">
+                    <img src='/images/AspirusAndroid.png' className='img-fluid mb-4' alt='aspirus android app'/>
                     <center>
                         <h4>Aspirus Health Care Android App</h4>
                         <p class="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
@@ -58,10 +84,10 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau'/>
                     <center>
-                        <h4>Orchid Bureau</h4>
+                        <h4>Orchid Bureau Web Application</h4>
                         <p class="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
                         <Button 
                             variant="contained" 
@@ -71,7 +97,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up">
+                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/BusTicketReservation.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
                     <center>
                         <h4>Bus Ticket Reservation System</h4>
@@ -84,7 +110,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                <div class="projectBox" data-aos="fade-up">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='library management system'/>
                     <center>
                     <h4>Library Management System</h4>
