@@ -9,9 +9,9 @@ body.dark-mode{
   color: #e5e5e5;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 
 a{
   text-decoration: none;
