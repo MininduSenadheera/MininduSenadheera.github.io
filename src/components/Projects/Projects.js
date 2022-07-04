@@ -72,7 +72,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
+                    <img src='/images/BusTicketReservation.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
                     <center>
                         <h4>Bus Ticket Reservation System</h4>
                         <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online and manage their reservations.</p>
