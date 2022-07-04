@@ -46,7 +46,6 @@ body.dark-mode .projectBox {
 
 
 .projectBox img{
-  width: 350px;
   transition: transform .5s ease;
 }
 .projectBox:hover img{
