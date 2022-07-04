@@ -8,6 +8,10 @@ import "aos/dist/aos.css";
 function Projects() {
     Aos.init({duration:1000, once:false})
 
+    function DWBIAirbnb(){
+        window.open("https://github.com/MininduSenadheera/DWBI-Assignment1");
+    }
+
     function aspirusWeb(){
         window.open("https://github.com/JMAT-Technologies/Aspirus-Health-Care-WebApp");
     }
@@ -39,14 +43,14 @@ function Projects() {
                         <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for Airbnb hotel listings in Boston.</p>
                         <Button 
                             variant="contained" 
-                            onClick={lms} 
+                            onClick={DWBIAirbnb} 
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='DWBI grocery'/>
+                    <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI grocery'/>
                     <center>
                     <h4>DWBI for Grocery shop</h4>
                         <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for a grocery shop.</p>
