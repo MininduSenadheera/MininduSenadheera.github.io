@@ -1,5 +1,5 @@
 .logo {
-  height: 32px;
+  max-height: 32px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
