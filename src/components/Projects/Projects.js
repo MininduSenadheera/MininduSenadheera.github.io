@@ -33,7 +33,7 @@ function Projects() {
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main class="page-content-projects my-5">
                 <div class="projectBox" data-aos="fade-up">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus webapp'/>
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus webapp' data-aos-delay="100" data-aos="zoom-out"/>
                     <center>
                         <h4>Aspirus Health Care Web Application</h4>
                         <p class="copy">(MERN) <br/> Website for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
@@ -46,7 +46,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus android app'/>
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus android app' data-aos-delay="100" data-aos="zoom-out"/>
                     <center>
                         <h4>Aspirus Health Care Android App</h4>
                         <p class="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
@@ -59,7 +59,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau'/>
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau' data-aos-delay="100" data-aos="zoom-out"/>
                     <center>
                         <h4>Orchid Bureau</h4>
                         <p class="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
@@ -72,7 +72,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='bus ticket reservation web app' data-aos-delay="100" data-aos="zoom-out"/>
                     <center>
                         <h4>Bus Ticket Reservation System</h4>
                         <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online and manage their reservations.</p>
@@ -85,7 +85,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='library management system'/>
+                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='library management system' data-aos-delay="100" data-aos="zoom-out"/>
                     <center>
                     <h4>Library Management System</h4>
                         <p class="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
