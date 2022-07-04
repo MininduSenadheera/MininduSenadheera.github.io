@@ -17,7 +17,10 @@
 }
 
 .social-icons:hover {
-    transform: translate(0%, -3%);
+    transition: transform .3s ease;
+}
+.social-icons:hover {
+    transform: translate(0%, -10%);
 }
 
 img.circle-shadow {
