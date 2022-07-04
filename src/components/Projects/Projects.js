@@ -28,10 +28,6 @@ function Projects() {
         window.open("https://github.com/MininduSenadheera/Library-Management-System");
     }
 
-    function rentACar(){
-        window.open("https://github.com/JMAT-Technologies/Rent-A-Car-SQLite");
-    }
-
     return (
         <div id="projects" class="container my-5 grid" >
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
