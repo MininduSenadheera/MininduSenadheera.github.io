@@ -12,6 +12,11 @@ function Projects() {
         window.open("https://github.com/MininduSenadheera/DWBI-Assignment1");
     }
 
+    function DWBIShop(){
+        window.open("https://github.com/MininduSenadheera/DWBI-Grocery-Shop");
+    }
+
+
     function aspirusWeb(){
         window.open("https://github.com/JMAT-Technologies/Aspirus-Health-Care-WebApp");
     }
@@ -56,7 +61,7 @@ function Projects() {
                         <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for a grocery shop.</p>
                         <Button 
                             variant="contained" 
-                            onClick={lms} 
+                            onClick={DWBIShop} 
                             endIcon={<GitHubIcon />}>
                             View Project
                         </Button>
@@ -115,7 +120,7 @@ function Projects() {
                     </center>
                 </div>
                 <div class="projectBox" data-aos="fade-up">
-                    <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='library management system'/>
+                    <img src='/images/lms.png' className='img-fluid mb-4' alt='library management system'/>
                     <center>
                     <h4>Library Management System</h4>
                         <p class="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
