@@ -9,7 +9,7 @@ function Projects() {
     Aos.init({duration:1000, once:false})
 
     function DWBIAirbnb(){
-        window.open("https://github.com/MininduSenadheera/DWBI-Assignment1");
+        window.open("https://github.com/MininduSenadheera/DWBI-Airbnb-Boston");
     }
 
     function DWBIShop(){
