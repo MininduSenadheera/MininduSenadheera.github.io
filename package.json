@@ -10,6 +10,7 @@
     "@mui/material": "^5.2.4",
     "@ramonak/react-progress-bar": "^4.4.0",
     "aos": "^2.3.4",
+    "countapi-js": "^1.0.2",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-circular-progressbar": "^2.0.4",
