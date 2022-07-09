@@ -10,18 +10,18 @@ function Services() {
         <section id='services' className="section mb-5">
             <div className='container' align="center">
                 <h1 className="title" data-aos="fade-up">My Services</h1>
-                <main class="page-content-certificates mt-5">
-                    <div class="card" data-aos="fade-up">
-                        <h3 class="card-title" >Web <br></br> Designing</h3>
+                <main className="page-content-certificates mt-5">
+                    <div className="card" data-aos="fade-up">
+                        <h3 className="card-title" >Web <br></br> Designing</h3>
                     </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="200">
-                        <h3 class="card-title" >Mobile App Development</h3>
+                    <div className="card" data-aos="fade-up" data-aos-delay="200">
+                        <h3 className="card-title" >Mobile App Development</h3>
                     </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="300">
-                        <h3 class="card-title" >University Assignments</h3>
+                    <div className="card" data-aos="fade-up" data-aos-delay="300">
+                        <h3 className="card-title" >University Assignments</h3>
                     </div>
-                    <div class="card" data-aos="fade-up">
-                        <h3 class="card-title" >Event / Travel Photography</h3>
+                    <div className="card" data-aos="fade-up">
+                        <h3 className="card-title" >Event / Travel Photography</h3>
                     </div>
                 </main>        
             </div>

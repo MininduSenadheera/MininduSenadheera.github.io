@@ -38,14 +38,14 @@ function Projects() {
     }
 
     return (
-        <div id="projects" class="container my-5 grid" >
+        <div id="projects" className="container my-5 grid" >
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
-            <main class="page-content-projects my-5">
-                <div class="projectBox" data-aos="fade-up">
+            <main className="page-content-projects my-5">
+                <div className="projectBox" data-aos="fade-up">
                     <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI Airbnb'/>
                     <center>
                     <h4>DWBI for Airbnb Boston</h4>
-                        <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for Airbnb hotel listings in Boston.</p>
+                        <p className="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for Airbnb hotel listings in Boston.</p>
                         <Button 
                             variant="contained" 
                             onClick={DWBIAirbnb} 
@@ -54,11 +54,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI grocery'/>
                     <center>
                     <h4>DWBI for Grocery shop</h4>
-                        <p class="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for a grocery shop.</p>
+                        <p className="copy">(SSIS, SSAS, SSRS) <br/> Data Warehousing and Business Intelligence project done for a grocery shop.</p>
                         <Button 
                             variant="contained" 
                             onClick={DWBIShop} 
@@ -67,11 +67,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus webapp'/>
                     <center>
                         <h4>Aspirus Health Care Web Application</h4>
-                        <p class="copy">(MERN) <br/> Website for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
+                        <p className="copy">(MERN) <br/> Website for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
                         <Button 
                             variant="contained" 
                             onClick={aspirusWeb}
@@ -80,11 +80,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up">
+                <div className="projectBox" data-aos="fade-up">
                     <img src='/images/AspirusAndroid.png' className='img-fluid mb-4' alt='aspirus android app'/>
                     <center>
                         <h4>Aspirus Health Care Android App</h4>
-                        <p class="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
+                        <p className="copy">(Java, Firebase) <br/> Android application for channelling doctors, telemedicine with live video audio conference and pharmacy store.</p>
                         <Button 
                             variant="contained" 
                             onClick={aspirusApp}
@@ -93,11 +93,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="200">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau'/>
                     <center>
                         <h4>Orchid Bureau Web Application</h4>
-                        <p class="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
+                        <p className="copy">(MERN) <br/> E-commerce app for an orchid shop.</p>
                         <Button 
                             variant="contained" 
                             onClick={orchidBureau}
@@ -106,11 +106,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up" data-aos-delay="300">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/BusTicketReservation.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
                     <center>
                         <h4>Bus Ticket Reservation System</h4>
-                        <p class="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online and manage their reservations.</p>
+                        <p className="copy">(JSP, SQL) <br/> A bus ticket reservation application where users can reserve seats online and manage their reservations.</p>
                         <Button 
                             variant="contained"
                             onClick={busTicket}
@@ -119,11 +119,11 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div class="projectBox" data-aos="fade-up">
+                <div className="projectBox" data-aos="fade-up">
                     <img src='/images/lms.png' className='img-fluid mb-4' alt='library management system'/>
                     <center>
                     <h4>Library Management System</h4>
-                        <p class="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
+                        <p className="copy">(PHP, SQL) <br/> Library management  website which can manage users and books and also users can reserve books.</p>
                         <Button 
                             variant="contained" 
                             onClick={lms} 
