@@ -128,7 +128,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className='col-xl-7  mb-5'>
-                        <h3 className='subtitle mb-3'>Professional Skills</h3>
+                        <h3 className='subtitle mb-3'>Soft Skills</h3>
                         <div className='skillGrid'>
                             <div className='boxSkill' >
                                 <VisibilitySensor>
