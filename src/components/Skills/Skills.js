@@ -14,40 +14,7 @@ function Skills() {
                     <div className='col-xl-5  mb-5'>
                         <div className='boxAbout'>
                             <h3 className='subtitle mb-4'>Languages</h3>
-
-                            <h5>HTML</h5>
-                            <VisibilitySensor>
-                                {({ isVisible }) => {
-                                    const percentage = isVisible ? 100 : 0;
-                                    return (
-                                        <ProgressBar
-                                            className='mb-3'
-                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
-                                            completed={percentage} 
-                                            isLabelVisible={false} 
-                                            animateOnRender={true} 
-                                        />
-                                    );
-                                }}
-                            </VisibilitySensor>
-
-                            <h5>CSS</h5>
-                            <VisibilitySensor>
-                                {({ isVisible }) => {
-                                    const percentage = isVisible ? 95 : 0;
-                                    return (
-                                        <ProgressBar
-                                            className='mb-3'
-                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
-                                            completed={percentage} 
-                                            isLabelVisible={false} 
-                                            animateOnRender={true} 
-                                        />
-                                    );
-                                }}
-                            </VisibilitySensor>
-
-                            <h5>JavaScript</h5>
+                            <h5>PHP</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
                                     const percentage = isVisible ? 85 : 0;
