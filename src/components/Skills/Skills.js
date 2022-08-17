@@ -95,6 +95,22 @@ function Skills() {
                                 }}
                             </VisibilitySensor>
 
+                            <h5>MERN Stack</h5>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 95 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
+
                             <h5>SQL</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
