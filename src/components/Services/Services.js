@@ -12,7 +12,7 @@ function Services() {
                 <h1 className="title" data-aos="fade-up">My Services</h1>
                 <main className="page-content-certificates mt-5">
                     <div className="card" data-aos="fade-up">
-                        <h3 className="card-title" >Web <br></br> Designing</h3>
+                        <h3 className="card-title" >Web <br></br> Developing</h3>
                     </div>
                     <div className="card" data-aos="fade-up" data-aos-delay="200">
                         <h3 className="card-title" >Mobile App Development</h3>
