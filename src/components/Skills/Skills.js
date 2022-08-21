@@ -12,8 +12,8 @@ function Skills() {
             <div className='container' align="center">
                 <div className='row'>
                     <div className='col-xl-5  mb-5'>
+                        <h3 className='subtitle mb-4'>Languages</h3>
                         <div className='boxAbout'>
-                            <h3 className='subtitle mb-4'>Languages</h3>
                             <h5>PHP</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
