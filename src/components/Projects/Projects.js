@@ -8,6 +8,10 @@ import "aos/dist/aos.css";
 function Projects() {
     Aos.init({duration:1000, once:false})
 
+    function FDMAirbnb(){
+        window.open("https://github.com/MininduSenadheera/Airbnb-Price-Prediction");
+    }
+
     function DWBIAirbnb(){
         window.open("https://github.com/MininduSenadheera/DWBI-Airbnb-Boston");
     }
@@ -42,6 +46,19 @@ function Projects() {
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main className="page-content-projects my-5">
                 <div className="projectBox" data-aos="fade-up">
+                    <img src='/images/Airbnb Price Predictor.png' className='img-fluid mb-4' alt='DWBI Airbnb'/>
+                    <center>
+                    <h4>Airbnb Price predictor</h4>
+                        <p className="copy">(Machine Learning, Data Mining) <br/> Predicting price of Airbnb hotel listings in Boston based on facilities provided.</p>
+                        <Button 
+                            variant="contained" 
+                            onClick={FDMAirbnb} 
+                            endIcon={<GitHubIcon />}>
+                            View Project
+                        </Button>
+                    </center>
+                </div>
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI Airbnb'/>
                     <center>
                     <h4>DWBI for Airbnb Boston</h4>
@@ -54,7 +71,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/DWBIAirbnb.png' className='img-fluid mb-4' alt='DWBI grocery'/>
                     <center>
                     <h4>DWBI for Grocery shop</h4>
@@ -67,7 +84,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
+                <div className="projectBox" data-aos="fade-up">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='aspirus webapp'/>
                     <center>
                         <h4>Aspirus Health Care Web Application</h4>
@@ -80,7 +97,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/AspirusAndroid.png' className='img-fluid mb-4' alt='aspirus android app'/>
                     <center>
                         <h4>Aspirus Health Care Android App</h4>
@@ -93,7 +110,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau'/>
                     <center>
                         <h4>Orchid Bureau Web Application</h4>
@@ -106,7 +123,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up" data-aos-delay="300">
+                <div className="projectBox" data-aos="fade-up">
                     <img src='/images/BusTicketReservation.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
                     <center>
                         <h4>Bus Ticket Reservation System</h4>
@@ -119,7 +136,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up">
+                <div className="projectBox" data-aos="fade-up" data-aos-delay="200">
                     <img src='/images/lms.png' className='img-fluid mb-4' alt='library management system'/>
                     <center>
                     <h4>Library Management System</h4>
