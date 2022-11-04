@@ -14,10 +14,10 @@ function Skills() {
                     <div className='col-xl-5  mb-5'>
                         <h3 className='subtitle mb-4'>Languages</h3>
                         <div className='boxAbout'>
-                            <h5>PHP</h5>
+                            <h5>Python</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
-                                    const percentage = isVisible ? 85 : 0;
+                                    const percentage = isVisible ? 65 : 0;
                                     return (
                                         <ProgressBar
                                             className='mb-3'
@@ -109,11 +109,10 @@ function Skills() {
                                     );
                                 }}
                             </VisibilitySensor>
-
-                            <h5>Python</h5>
+                            <h5>PHP</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
-                                    const percentage = isVisible ? 65 : 0;
+                                    const percentage = isVisible ? 85 : 0;
                                     return (
                                         <ProgressBar
                                             className='mb-3'
