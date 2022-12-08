@@ -7,7 +7,7 @@ function Header() {
     const darkMode = useDarkMode(false);
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top mx-1">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="home">
                     <img src='/images/MininduLogo.png' className='logo' alt='logo'/>
