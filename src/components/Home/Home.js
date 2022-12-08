@@ -30,7 +30,7 @@ function Home() {
                         <div className='mt-2' data-aos="fade-right" data-aos-delay="200">
                             <Typing>
                                 <p>
-                                    Data Science Undergraduate | &nbsp; 
+                                    Associate Data Scientist | &nbsp; 
                                     <Typing.Delay ms={500} />
                                     Full Stack Developer | &nbsp;
                                     <Typing.Delay ms={500} />
@@ -59,7 +59,7 @@ function Home() {
                                 <img className="social-icons" src="https://img.icons8.com/fluency/50/000000/facebook-new.png" alt="facebook"/>
                             </a>
                             <br/><br/>
-                            <Link to="/pdf/Resume - Minindu Senadheera.pdf" target="_blank" download>
+                            <Link hidden="true" to="/pdf/Resume - Minindu Senadheera.pdf" target="_blank" download>
                                 <button className="btn btn-md btn-primary">Download My CV</button>
                             </Link>
                         </div>
