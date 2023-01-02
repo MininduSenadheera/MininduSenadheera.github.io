@@ -49,7 +49,7 @@ function Projects() {
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main className="page-content-projects my-5">
                 <div className="projectBox" data-aos="fade-up">
-                    <img src='/images/Aenigme.png' className='img-fluid mb-4' alt='aenigme'/>
+                    <img src='/images/aenigme.png' className='img-fluid mb-4' alt='aenigme'/>
                     <center>
                     <h4>Aenigme.com</h4>
                         <p className="copy">(React) <br/> Aenigme provides digital strategies for products & small and medium enterprises.</p>
