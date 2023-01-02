@@ -69,9 +69,6 @@ body.dark-mode .navbar-custom {
     display: block;
     padding: 10px 15px !important;
   }
-  .navbar-default {
-    border-bottom: 1px solid #e7e7e7;
-  }
 }
 
 
