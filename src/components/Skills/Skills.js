@@ -14,38 +14,6 @@ function Skills() {
                     <div className='col-xl-5  mb-5'>
                         <h3 className='subtitle mb-4'>Languages</h3>
                         <div className='boxAbout'>
-                            <h5>Python</h5>
-                            <VisibilitySensor>
-                                {({ isVisible }) => {
-                                    const percentage = isVisible ? 65 : 0;
-                                    return (
-                                        <ProgressBar
-                                            className='mb-3'
-                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
-                                            completed={percentage} 
-                                            isLabelVisible={false} 
-                                            animateOnRender={true} 
-                                        />
-                                    );
-                                }}
-                            </VisibilitySensor>
-                            
-                            <h5>Java</h5>
-                            <VisibilitySensor>
-                                {({ isVisible }) => {
-                                    const percentage = isVisible ? 80 : 0;
-                                    return (
-                                        <ProgressBar
-                                            className='mb-3'
-                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
-                                            completed={percentage} 
-                                            isLabelVisible={false} 
-                                            animateOnRender={true} 
-                                        />
-                                    );
-                                }}
-                            </VisibilitySensor>
-
                             <h5>React</h5>
                             <VisibilitySensor>
                                 {({ isVisible }) => {
@@ -66,6 +34,38 @@ function Skills() {
                             <VisibilitySensor>
                                 {({ isVisible }) => {
                                     const percentage = isVisible ? 95 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
+
+                            <h5>Python</h5>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 65 : 0;
+                                    return (
+                                        <ProgressBar
+                                            className='mb-3'
+                                            bgColor='linear-gradient(45deg, #5ff281, #5f86f2)'
+                                            completed={percentage} 
+                                            isLabelVisible={false} 
+                                            animateOnRender={true} 
+                                        />
+                                    );
+                                }}
+                            </VisibilitySensor>
+                            
+                            <h5>Java</h5>
+                            <VisibilitySensor>
+                                {({ isVisible }) => {
+                                    const percentage = isVisible ? 80 : 0;
                                     return (
                                         <ProgressBar
                                             className='mb-3'
