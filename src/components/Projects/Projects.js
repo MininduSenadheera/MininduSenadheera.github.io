@@ -32,9 +32,9 @@ function Projects() {
         window.open("https://github.com/JMAT-Technologies/Aspirus-Health-Care-Android-App");
     }
 
-    function orchidBureau(){
-        window.open("https://github.com/MininduSenadheera/Orchid-Bureau" );
-    }
+    // function orchidBureau(){
+    //     window.open("https://github.com/MininduSenadheera/Orchid-Bureau" );
+    // }
 
     function busTicket(){
         window.open("https://github.com/MininduSenadheera/Bus-Ticket-Reservation");
@@ -126,7 +126,7 @@ function Projects() {
                         </Button>
                     </center>
                 </div>
-                <div className="projectBox" data-aos="fade-up">
+                {/* <div className="projectBox" data-aos="fade-up">
                     <img src='/images/AspirusHealthCare.png' className='img-fluid mb-4' alt='orchid bureau'/>
                     <center>
                         <h4>Orchid Bureau Web Application</h4>
@@ -138,7 +138,7 @@ function Projects() {
                             View Project
                         </Button>
                     </center>
-                </div>
+                </div> */}
                 <div className="projectBox" data-aos="fade-up"  data-aos-delay="200">
                     <img src='/images/BusTicketReservation.png' className='img-fluid mb-4' alt='bus ticket reservation web app'/>
                     <center>
