@@ -1,28 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import countapi from 'countapi-js';
+import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
 import './Footer.css'
 
 function Footer() {
-  const [count, setCount] = useState();
 
-  useEffect(() => {
-    countapi.visits('global').then((result) => {
-      setCount(result.value);
-    });
-  }, [])
-
-    return (
-      <footer className='mt-5'>
-        <h6>Page visits: {count}</h6>
-        <div className="copyright-text">
-          <p>All rights reserved.
-            <br></br>
-            Created by
-            <a href="http://www.github.com/MininduSenadheera" target="_blank" rel="noreferrer"> Minindu Senadheera</a>
-          </p>
-        </div>
-      </footer>
-    )
+  return (
+    <footer className='mt-5'>
+      <p className='mb-0'>
+        Created by <GitHubIcon />
+        <a href="http://www.github.com/MininduSenadheera" target="_blank" rel="noreferrer"> Minindu Senadheera</a>
+      </p>
+    </footer>
+  )
 }
 
 export default Footer
