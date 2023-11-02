@@ -15,10 +15,3 @@
 .boxAbout p {
     font-size: large;
 }
-
-body.dark-mode .boxAbout {
-    background: rgb(255, 255, 255,0.1);
-    backdrop-filter: blur(20px);
-    color: white;
-}
-  

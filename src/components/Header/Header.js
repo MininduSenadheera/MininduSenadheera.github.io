@@ -1,13 +1,11 @@
 import React from 'react';
 import './Header.css';
 import { Link } from "react-scroll";
-import useDarkMode from 'use-dark-mode';
 
 function Header() {
-    const darkMode = useDarkMode(false);
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top mx-1">
+        <nav className="navbar navbar-expand-lg navbar-default navbar-light navbar-custom fixed-top">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="home">
                     <img src='/images/MininduLogo.png' className='logo' alt='logo'/>
@@ -40,10 +38,6 @@ function Header() {
                             <Link to="certificates" spy={true} smooth={true} offset={-100} duration={500}>
                                 Certifications
                             </Link>
-                        </li>
-                        <li>
-                            <input type="checkbox" id='mode' checked={darkMode.value} onClick={darkMode.toggle}></input>
-                            <label htmlFor='mode' className='nightMode'/>
                         </li>
                     </ul>
                 </div>

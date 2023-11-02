@@ -39,12 +39,6 @@
   color: #474D58;
   text-align: center;
 }
-body.dark-mode .projectBox {
-  background: rgb(255, 255, 255,0.1);
-  backdrop-filter: blur(20px);
-  color: white;
-}
-
 
 .projectBox img{
   width: 350px;
