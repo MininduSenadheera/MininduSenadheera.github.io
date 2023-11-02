@@ -61,7 +61,7 @@ function Skills() {
 					</div>
 					<div className='col-xl-7 mb-5'>
 						<h3 className='subtitle mb-3'>Soft Skills</h3>
-						<div className='page-content-certificates'>
+						<div className='page-content-skills'>
 							{softSkills.map((skill, index) =>
 								<SoftSkill key={index} rating={skill.rating} skill={skill.skill} />
 							)}
