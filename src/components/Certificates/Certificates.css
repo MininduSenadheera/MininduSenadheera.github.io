@@ -18,7 +18,7 @@
 
 .page-content-certificates {
   display: grid;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
 }
