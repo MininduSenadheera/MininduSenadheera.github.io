@@ -21,7 +21,7 @@ function About() {
                             </h5>
                             <br></br>
                             <p data-aos="fade-up" data-aos-delay="100">
-                                🎓 I'm a final year undergraduate at the Sri Lanka Institute of Information Technology, pursuing a BSc(Hons) in Information Technology with a specialization in Data Science. My academic journey began at S. Thomas' College Mount Lavinia, where I delved into the world of Physical Sciences.
+                                🎓 I recently graduated with a Second Upper Class Honours in BSc (Hons) Information Technology specializing in Data Science from the prestigious Sri Lanka Institute of Information Technology. Throughout my studies, I consistently excelled, even achieving a GPA exceeding 3.7 and landing on the Dean's List. My academic journey began at S. Thomas' College Mount Lavinia, where I delved into the world of Physical Sciences.
                             </p>
                             <p data-aos="fade-up" data-aos-delay="200">
                                 💼 By day, I'm a dynamic Data Scientist and Full-stack Software Engineer at Sling Mobility (PVT) Ltd, an innovative Energy-as-a-Service company for electric vehicles (EVs).
