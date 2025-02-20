@@ -11,7 +11,7 @@ function Home() {
 		<section id="home" className="container vh-100 d-flex justify-content-center align-items-center">
 			<div className='d-flex align-items-center flex-wrap'>
 				<div className='p-5' data-aos="zoom-out" align="center">
-					<img src="/images/ProfilePic.jpg" className="home-img img-fluid" alt="profile pic" />
+					<img src="/images/ProfilePic.png" className="home-img img-fluid" alt="profile pic" />
 				</div>
 				<div>
 					<p data-aos="fade-up">Hi there, I'm </p>

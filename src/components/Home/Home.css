@@ -1,5 +1,7 @@
 .home-img {
     width: 350px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     box-shadow: 0px 0px 20px 10px #B7589C;
     vertical-align: middle;
