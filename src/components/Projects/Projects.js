@@ -15,9 +15,14 @@ function Projects() {
         link: "https://artigalaayurveda.com"
     }, {
         title: "Ashen Ravisara Portfolio",
-        description: "Portfolio Website for an UI/UX Designer.",
+        description: "Portfolio Website for an UI/UX Designer to showcase his talent in User interface and user experience designing",
         img: "/images/Ashen.png",
-        link: "https://ashen-ravisara.github.io"
+        link: "https://ashen-ravisara.github .io"
+    }, {
+        title: "Sumangala College OBA",
+        description: "Membership management system for Sumangala College Panadura for managing members, events, dontations and etc.",
+        img: "/images/Sumangala.png",
+        link: "https://m.sumangalaoba.com"
     }, {
         title: "FieldR",
         description: "Online cricket analytics and digital score sheet mobile app.",
@@ -75,17 +80,13 @@ function Projects() {
             <h1 className="title" data-aos="fade-up">Check Out My Projects</h1>
             <main className="page-content-projects my-5">
                 {projects.map((project, index) =>
-                    <div className="projectBox" data-aos="fade-up" data-aos-delay={index * 100}>
-                        <img src={project.img} className='img-fluid mb-4' style={{ borderRadius: '8px' }} alt={project.title} />
+                    <div
+                        className="projectBox" data-aos="fade-up" data-aos-delay={index * 100}
+                        onClick={() => window.open(project.link, '_blank')}
+                    >
+                        <img src={project.img} className='img-fluid mb-4' style={{ borderRadius: '8px', width: 340, height: 223, objectFit: 'cover' }} alt={project.title} />
                         <h4>{project.title}</h4>
                         <p>{project.description}</p>
-                        <Button
-                            href={project.link}
-                            target='_blank'
-                            variant="contained"
-                            endIcon={<LanguageIcon />}>
-                            View site
-                        </Button>
                     </div>
                 )}
             </main>
