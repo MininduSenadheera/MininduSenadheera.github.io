@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from '@mui/material/Button';
-import LanguageIcon from '@mui/icons-material/Language';
 import './Projects.css'
 import Aos from 'aos';
 import "aos/dist/aos.css";
