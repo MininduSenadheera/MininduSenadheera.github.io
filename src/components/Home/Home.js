@@ -3,13 +3,14 @@ import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { Box } from '@mui/material';
 
 function Home() {
 	Aos.init({ duration: 1000 })
 
 	return (
 		<section id="home" className="container vh-100 d-flex justify-content-center align-items-center">
-			<div className="floating-logos" data-aos="zoom-out">
+			<Box display={{ xs: 'none', md: 'block' }} className="floating-logos" data-aos="zoom-out">
 				<img src="https://skillicons.dev/icons?i=react" className="floating-icon" alt="React" style={{ top: '10%', left: '5%' }} />
 				<img src="https://skillicons.dev/icons?i=nodejs" className="floating-icon" alt="Node" style={{ top: '15%', left: '30%' }} />
 				<img src="https://skillicons.dev/icons?i=typescript" className="floating-icon" alt="Typescript" style={{ top: '25%', left: '15%' }} />
@@ -31,7 +32,7 @@ function Home() {
 				<img src="https://skillicons.dev/icons?i=materialui" className="floating-icon" alt="material ui" style={{ bottom: '5%', right: '35%' }} />
 				<img src="https://skillicons.dev/icons?i=firebase" className="floating-icon" alt="firebase" style={{ bottom: '10%', left: '40%' }} />
 				<img src="https://skillicons.dev/icons?i=mongodb" className="floating-icon" alt="mongodb" style={{ bottom: '20%', left: '25%' }} />
-			</div>
+			</Box>
 			<div className='d-flex align-items-center flex-wrap' style={{ backdropFilter: 'blur(10px)', borderRadius: '10px' }}>
 				<div className='p-5' data-aos="zoom-out-left" align="center">
 					<img src="/images/ProfilePic.png" className="home-img img-fluid" alt="profile pic" />
