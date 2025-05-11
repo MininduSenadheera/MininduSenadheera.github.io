@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4489e048.css",
-    "main.js": "/static/js/main.36557658.js",
+    "main.js": "/static/js/main.77c1687d.js",
     "index.html": "/index.html",
     "static/media/sun-line.svg": "/static/media/sun-line.6a065dbc56a6a7c0bd06.svg",
     "static/media/moon-line.svg": "/static/media/moon-line.eb1e7784282138bc6f73.svg",
     "main.4489e048.css.map": "/static/css/main.4489e048.css.map",
-    "main.36557658.js.map": "/static/js/main.36557658.js.map"
+    "main.77c1687d.js.map": "/static/js/main.77c1687d.js.map"
   },
   "entrypoints": [
     "static/css/main.4489e048.css",
-    "static/js/main.36557658.js"
+    "static/js/main.77c1687d.js"
   ]
 }
