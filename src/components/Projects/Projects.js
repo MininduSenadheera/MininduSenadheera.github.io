@@ -80,7 +80,7 @@ function Projects() {
                 {projects.map((project, index) =>
                     <div
                         className="projectBox" data-aos="fade-up" data-aos-delay={index * 100}
-                        onClick={() => window.open(project.link, '_blank')}
+                        onClick={() => window.open(project.link, '_blank')} key={index}
                     >
                         <img src={project.img} className='img-fluid mb-4' style={{ borderRadius: '8px', width: 340, height: 223, objectFit: 'cover' }} alt={project.title} />
                         <h4>{project.title}</h4>
