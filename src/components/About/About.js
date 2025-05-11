@@ -13,10 +13,10 @@ function About() {
                 <h1 className="title" data-aos="fade-up">Who am I?</h1>
                 <div className='boxAbout my-5 p-5'>
                     <Grid container spacing={2} alignItems='center'>
-                        <Grid item xs={12} sm={6}>
+                        <Grid size={{ xs: 12, sm: 6 }}>
                             <img src="/images/MininduSenadheera.png" className='img-fluid' alt='minindu' data-aos="zoom-out" />
                         </Grid>
-                        <Grid item xs={12} sm={6}>
+                        <Grid size={{ xs: 12, sm: 6 }}>
                             <h4 data-aos="fade-up">Welcome to my world of Data Science and Software Engineering!</h4>
                             <br></br>
                             <p data-aos="fade-up" data-aos-delay="100">
