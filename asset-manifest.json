@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.016a1a7e.chunk.css",
-    "main.js": "/static/js/main.344d7f5c.chunk.js",
-    "main.js.map": "/static/js/main.344d7f5c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8465ac3a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8465ac3a.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.64325740.chunk.js": "/static/js/2.64325740.chunk.js",
-    "static/js/2.64325740.chunk.js.map": "/static/js/2.64325740.chunk.js.map",
+    "main.css": "/static/css/main.4489e048.css",
+    "main.js": "/static/js/main.03a29e2b.js",
     "index.html": "/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.016a1a7e.chunk.css.map": "/static/css/main.016a1a7e.chunk.css.map",
-    "static/js/2.64325740.chunk.js.LICENSE.txt": "/static/js/2.64325740.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/static/media/sun-line.6a065dbc.svg"
+    "static/media/sun-line.svg": "/static/media/sun-line.6a065dbc56a6a7c0bd06.svg",
+    "static/media/moon-line.svg": "/static/media/moon-line.eb1e7784282138bc6f73.svg",
+    "main.4489e048.css.map": "/static/css/main.4489e048.css.map",
+    "main.03a29e2b.js.map": "/static/js/main.03a29e2b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8465ac3a.js",
-    "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.64325740.chunk.js",
-    "static/css/main.016a1a7e.chunk.css",
-    "static/js/main.344d7f5c.chunk.js"
+    "static/css/main.4489e048.css",
+    "static/js/main.03a29e2b.js"
   ]
 }
