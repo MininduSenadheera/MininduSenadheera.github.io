@@ -51,22 +51,22 @@ function Home() {
 						/>
 					</p>
 					<div className='d-flex justify-content-between align-items-center'>
-						<a href="mailto:minindusenadheera@gmail.com" data-aos="fade-right" data-aos-delay="200">
+						<a href="mailto:minindusenadheera@gmail.com" data-aos="fade-right" data-aos-delay="200" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/apple-mail.png" alt="mail" />
 						</a>
-						<a href="https://www.linkedin.com/in/minindusenadheera" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="300">
+						<a href="https://www.linkedin.com/in/minindusenadheera" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="300" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/linkedin.png" alt="linkedin" />
 						</a>
-						<a href="https://github.com/MininduSenadheera" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="400">
+						<a href="https://github.com/MininduSenadheera" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="400" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/github.png" alt="github" />
 						</a>
-						<a href="https://www.instagram.com/minindu_senadheera/" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="500">
+						<a href="https://www.instagram.com/minindu_senadheera/" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="500" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/instagram-new.png" alt="instagram" />
 						</a>
-						<a href="https://www.facebook.com/minindu.senadheera/" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="600">
+						<a href="https://www.facebook.com/minindu.senadheera/" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/facebook-new.png" alt="facebook" />
 						</a>
-						<a href="https://www.tiktok.com/@minindusenadheera?_t=ZS-8wGphmsQGWt&_r=1" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="700">
+						<a href="https://www.tiktok.com/@minindusenadheera?_t=ZS-8wGphmsQGWt&_r=1" target="_blank" rel="noreferrer" data-aos="fade-right" data-aos-delay="700" data-aos-anchor="home">
 							<img src="https://img.icons8.com/fluency/50/000000/tiktok.png" alt="tiktok" />
 						</a>
 					</div>
