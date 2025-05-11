@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Certificates from './components/Certificates/Certificates';
 // import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 function App() {
   return (
@@ -22,6 +23,12 @@ function App() {
           <Certificates />
         </div>
       </Router>
+      <FloatingWhatsApp
+        avatar='/images/ProfilePic.png'
+        accountName='Minindu Senadheera'
+        phoneNumber='+94767041198'
+        allowClickAway allowEsc
+      />
     </div>
   );
 }
