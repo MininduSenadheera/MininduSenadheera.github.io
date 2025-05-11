@@ -40,7 +40,7 @@ function Home() {
 				<div>
 					<p data-aos="fade-up">Hi there, I'm </p>
 					<h1 className="userName display-5 fw-normal">Minindu Senadheera</h1>
-					<p data-aos="fade-right" data-aos-delay="200">
+					<p data-aos="fade-right" data-aos-delay="200" data-aos-anchor="home">
 						<TypeAnimation
 							sequence={[
 								'Data Scientist',
