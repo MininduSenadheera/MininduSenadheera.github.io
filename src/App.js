@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About'
 import Projects from './components/Projects/Projects';
 import Certificates from './components/Certificates/Certificates';
-// import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
@@ -17,7 +16,6 @@ function App() {
           <Header />
           <Home />
           <About />
-          {/* <Skills /> */}
           <Services />
           <Projects />
           <Certificates />
@@ -27,6 +25,9 @@ function App() {
         avatar='/images/ProfilePic.png'
         accountName='Minindu Senadheera'
         phoneNumber='+94767041198'
+        statusMessage='Online'
+        chatMessage='Hello! How can I help you?'
+        placeholder=''
         allowClickAway allowEsc
       />
     </div>
