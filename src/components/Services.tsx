@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Globe, Smartphone, Code } from 'lucide-react'
@@ -124,27 +122,6 @@ const Services: React.FC<ServicesProps> = ({ mousePosition }) => {
             </motion.div>
           ))}
         </div>
-
-        {/* Call to Action */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-center mt-16"
-        >
-          <p className="text-muted-foreground mb-6">
-            Ready to bring your project to life?
-          </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-lg hover:shadow-lg transition-shadow"
-          >
-            Let's Work Together
-          </motion.button>
-        </motion.div>
       </div>
     </section>
   )
