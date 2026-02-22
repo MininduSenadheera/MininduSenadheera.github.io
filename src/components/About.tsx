@@ -63,7 +63,7 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="py-20 px-4">
+    <section id="about" className="py-20 px-6 sm:px-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -76,7 +76,7 @@ const About = () => {
           <p className="text-muted-foreground leading-relaxed mb-8">
             I'm a dedicated Full Stack Software Engineer and Data Scientist with a passion for transforming complex problems into elegant solutions. My journey in technology began with curiosity and has evolved into expertise across multiple domains. When I'm not coding, you'll find me exploring new destinations, capturing moments through photography, and learning about different cultures around the world.
           </p>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {highlights.map((highlight, index) => (
               <motion.div
                 key={index}
